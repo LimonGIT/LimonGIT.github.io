@@ -1,0 +1,110 @@
+$site-font-family: Helvetica, sans-serif;
+
+$primary-color: #fcdb00;
+$second-color:#000;
+$third-color: white;
+$link-color-hover: blue;
+$link-color-visited: blueviolet;
+$button-color-hover: yellow;
+
+$site-max-width: 1400px;
+$wrapper-max-width: 960px;
+.header{ margin: 0 auto; max-width:$site-max-width;background:$primary-color;}
+.wrapper { margin: 0 auto; max-width:$wrapper-max-width;}
+.main {background:$third-color;padding:0 0;}
+form, footer { margin: 0 auto; max-width:$site-max-width;background:$second-color;}
+footer, footer a {color:$third-color;}
+
+body {color:$second-color;}
+
+@media screen and (min-width: 1px) and (max-width: 480px){.logo-link a{font-size: 22px;}.top-menu-links  a {font-size: 14px;}input{padding-left:5px;}button, input, footer{font-size: 12px;}button, input{border-radius: 3px; height: 24px;}.iPad-frame {border-radius: 12px;}.wrapper{padding:1% 5.5%;}.img-indents{padding:0 2%;}.footer-indents{padding:0 20%;}.software-img-indents{padding:2% 0;}.slider-buttons {padding:7% 0;}.text-top-rp{padding:2% 0 5% 0;}.text-top-lrp{padding-left:20%;padding-right:20%;}}
+@media screen and (min-width: 481px) and (max-width: 640px){.logo-link a{font-size: 24px;}.top-menu-links  a {font-size: 18px;}input{padding-left:10px;}button, input, footer{font-size: 14px;}button, input{border-radius: 3px; height: 26px;}.iPad-frame {border-radius: 14px;}.wrapper{padding:1% 4%;}.footer-indents{padding:0 26%;}.software-img-indents{padding:2% 0;}.slider-buttons {padding:6% 0;}.text-top-rp{padding:1% 0 5% 0;}.text-top-lrp{padding-left:15%;padding-right:15%;}}
+@media screen and (min-width: 641px) and (max-width: 767px){.logo-link a{font-size: 24px;}.top-menu-links  a {font-size: 18px;}input{padding-left:15px;}button, input, footer{font-size: 14px;}button, input{border-radius: 4px; height: 29px;}.iPad-frame {border-radius: 16px;}.wrapper{padding:1% 4%;}.footer-indents{padding:0 30%;}.software-img-indents{padding:2% 0;}.slider-buttons {padding:6% 0;}.text-top-rp{padding:1% 0 5% 0;}.text-top-lrp{padding-left:13%;padding-right:13%;}}
+@media screen and (min-width: 768px) and (max-width: 990px){.logo-link a{font-size: 28px;}.top-menu-links  a {font-size: 22px;}input{padding-left:20px;}button, input, footer{font-size: 16px;}button, input{border-radius: 4px; height: 36px;}.iPad-frame {border-radius: 18px;}.wrapper{padding:1% 3%;}.footer-indents{padding:0 10%;}.software-img-indents{padding:2% 0;}.slider-buttons {padding:3% 0;}.text-top-rp{padding:3% 10% 5% 0;}.text-top-lrp{padding-left:13%;padding-right:4%;}}
+@media screen and (min-width: 991px) and (max-width: 1360px){.logo-link a{font-size: 28px;}.top-menu-links  a {font-size: 22px;}input{padding-left:25px;}button, input, footer{font-size: 16px;}button, input{border-radius: 5px; height: 43px;}.iPad-frame {border-radius: 20px;}.wrapper{padding:1% 1.8%;}.footer-indents{padding:0 5%;}.software-img-indents{padding:7% 0;}.slider-buttons {padding:3% 0;}.text-top-rp{padding:3% 10% 5% 0;}.text-top-lrp{padding-left:13%;padding-right:4%;}}
+@media screen and (min-width: 1361px) and (max-width: 1920px){.logo-link a{font-size: 28px;}.top-menu-links  a {font-size: 22px;}input{padding-left:25px;}button, input, footer{font-size: 16px;}button, input{border-radius: 5px; height: 50px;}.iPad-frame {border-radius: 20px;}.wrapper{padding:1% 1.5%;}.software-img-indents{padding:7% 0;}.slider-buttons {padding:4% 0;}.text-top-rp{padding:3% 10% 5% 0;}.text-top-lrp{padding-left:13%;padding-right:4%;}}
+
+h2 {color: $primary-color;}
+
+footer div{padding: 3% 0}
+footer a:hover {text-decoration:none; color:$primary-color;}
+
+.logo-link, .top-menu-links{padding-bottom:5%;}
+
+.logo-link a, .top-menu-links  a {text-decoration:none;color:$second-color;}
+.logo-link a:visited, .top-menu-links  a:visited, .monitor-frame a:visited {text-decoration:none; color:$link-color-visited;}
+.monitor-frame  a:hover, .logo-link a:hover, .top-menu-links  a:hover/*, p a:hover*/ {text-decoration:none; color:$link-color-hover;}
+.monitor-frame a {text-decoration:none; color: $primary-color;}
+.menu-color {color:$second-color;}
+.operation-indents {padding:0 0;}
+
+
+.photo-logo-top{height:5%;}
+.photo-logo{width:16%;}
+
+.iPad-frame{border:none; max-width:100%;
+  background:$third-color;
+  text-align:center;
+  padding:14% 6%;}
+
+.monitor-frame {border:none; background:$second-color;text-align: center;padding: 60% 0}
+
+.apple, .android, .microsoft {width: 41px;height:41px;display: inline-block;background:url(../img/slider-pc-sys.png);}
+
+.apple {background-position: 402px 0;}
+.android {background-position: 334px 0;}
+.microsoft {background-position: 262px 0;}
+
+.apple:hover {background-position: 185px 0;}
+.android:hover {background-position: 115px 0;}
+.microsoft:hover {background-position: 41px 0;}
+
+.center{text-align: center;}
+
+input {overflow: hidden;  display: inline-block;  border: none;min-width:62%;}
+
+.slider-buttons {max-width: 250px;}
+button {  overflow: hidden;
+ /* max-width: 126px;*/
+  display: inline-block;
+  color:$second-color;
+  background:$primary-color;
+  border: none;
+  min-width:13%;
+}
+
+button:hover {background:$button-color-hover;}
+
+.social-link { display: inline-block; max-width: 240px;}
+
+.facebook, .twitter, .googleplus, .pinterest {margin-right: 8px; display: inline-block; width: 36px; height: 36px;
+                                              background:url(../img/social.png);}
+
+.facebook {background-position: 511px 0;}
+.twitter {background-position: 443px 0;}
+.googleplus {background-position: 376px 0;}
+.pinterest {background-position: 307px 0;}
+
+.facebook:hover {background-position: 240px 0;}
+.twitter:hover {background-position: 171px 0;}
+.googleplus:hover {background-position: 104px 0;}
+.pinterest:hover {background-position: 36px 0;}
+
+.responsive, .layered, .icons, .code, .template, .download {width: 52px;height:52px;display: inline-block;background:url(../img/sliderfeatures.png);}
+
+.responsive {background-position: 184px 229px;}
+.layered {background-position: 121px 229px;}
+.icons {background-position: 61px 229px;}
+.code {background-position: 184px 108px;}
+.template {background-position: 121px 108px;}
+.download {background-position: 61px 108px;}
+
+
+.responsive:hover{background-position: 184px 174px;}
+.layered:hover {background-position: 121px 174px;}
+.icons:hover {background-position: 61px 174px;}
+.code:hover {background-position: 184px 54px;}
+.template:hover {background-position: 121px 54px;}
+.download:hover {background-position: 61px 54px;}
+
+
