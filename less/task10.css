@@ -1,3 +1,4 @@
+/*.float-text-left {text-align: left;}*/
 .header {
   margin: 0 auto;
   max-width: 1400px;
@@ -33,6 +34,10 @@ footer a:hover {
   text-decoration: none;
   color: #fcdb00;
 }
+.footer-text-center {
+  text-align: center;
+}
+/*.float-text-left {text-align: left;}*/
 h2 {
   color: #fcdb00;
 }
@@ -124,9 +129,6 @@ input {
   text-align: center;
   padding: 14% 6%;
 }
-.slider-buttons {
-  max-width: 250px;
-}
 .apple,
 .android,
 .microsoft {
@@ -152,6 +154,9 @@ input {
 }
 .microsoft:hover {
   background-position: 41px 0;
+}
+.slider-buttons {
+  max-width: 250px;
 }
 .facebook,
 .twitter,
@@ -272,12 +277,6 @@ input {
     padding-left: 10%;
     padding-right: 7%;
   }
-  .adress-indents {
-    padding-left: 2%;
-  }
-  .operation-footer-indents {
-    padding-left: 8%;
-  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .logo-link a {
@@ -318,12 +317,6 @@ input {
     padding-left: 10%;
     padding-right: 7%;
   }
-  .adress-indents {
-    padding-left: 42%;
-  }
-  .operation-footer-indents {
-    padding-left: 8%;
-  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .logo-link a {
@@ -363,12 +356,6 @@ input {
   .text-top-lrp {
     padding-left: 10%;
     padding-right: 7%;
-  }
-  .adress-indents {
-    padding-left: 40%;
-  }
-  .operation-footer-indents {
-    padding-left: 8%;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 767px) {
@@ -413,12 +400,6 @@ input {
     padding-left: 25%;
     padding-right: 25%;
   }
-  .adress-indents {
-    padding-left: 40%;
-  }
-  .operation-footer-indents {
-    padding-left: 8%;
-  }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
   .logo-link a {
@@ -462,12 +443,6 @@ input {
     padding-left: 22%;
     padding-right: 22%;
   }
-  .adress-indents {
-    padding-left: 40%;
-  }
-  .operation-footer-indents {
-    padding-left: 8%;
-  }
 }
 @media screen and (min-width: 1px) and (max-width: 480px) {
   .logo-link a {
@@ -487,7 +462,7 @@ input {
   footer {
     line-height: 2;
   }
-  button,
+  /**/button,
   input {
     border-radius: 3px;
     height: 24px;
@@ -527,9 +502,6 @@ input {
   body h3,
   body h4 {
     font-size: large;
-  }
-  .adress-indents {
-    padding-left: 32%;
   }
 }
 
